@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Menu Tabs Styling */
+.menu-tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-tabs button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu-tabs .active {
+    background-color: #0056b3;
+}
+
+/* Menu Section Styling */
+.menu-section {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.menu-price {
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+}
+
+
+
+/* Styling for the row */
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px 0;
+    background-color: black;
+  }
+  
+  /* Styling for the column boxes */
+  .col {
+    width: 30%; /* Adjust based on your layout */
+    padding: 20px;
+    background-color: #000000; /* Light background color */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-right: 20px;
+  }
+  
+  /* Add hover effect */
+  .col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for headings */
+  .col h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Styling for paragraphs */
+  .col p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  .color1{
+    color: #003a77;
+    font-weight: bold;
+  }
+  .blue{
+    color: #0056b3;
+    
+  }
+  .white{
+    color: rgb(255, 255, 255);
+  }
+ .p1{
+    color: white;
+  }
